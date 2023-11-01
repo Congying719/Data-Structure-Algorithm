@@ -10,7 +10,7 @@ public class LongestPalindromicSubstring {
 
         System.out.println(longestPalindrome(s1)); // Output: "bab" or "aba"
         System.out.println(longestPalindrome(s2)); // Output: "bb"
-        System.out.println(longestPalindrome(s3));
+        System.out.println(longestPalindrome(s3)); // ttttttttt
     }
 
     public static String longestPalindrome(String s) {

@@ -1,5 +1,6 @@
 package test;
 
+import hashTable.ValidAnagramLC242;
 import org.junit.Test;
 import utils.CheckPrime;
 
@@ -15,5 +16,10 @@ public class TestFunction {
         // assertFalse(TestBasic.isPrime(5));
         assertFalse(CheckPrime.isPrime(8));
 
+    }
+    @Test
+    public void testHash() {
+        assertTrue(ValidAnagramLC242.validAnagram("monica", "moniac"));
+        assertFalse(ValidAnagramLC242.validAnagram("monica", "nica"));
     }
 }

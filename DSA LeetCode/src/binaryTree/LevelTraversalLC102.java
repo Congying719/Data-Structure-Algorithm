@@ -4,7 +4,7 @@ import utils.PrintUtils;
 
 import java.util.*;
 
-public class LevelTraversal {
+public class LevelTraversalLC102 {
 
     static List<List<Integer>> res = new ArrayList<>();
 

@@ -4,7 +4,7 @@ package dynamicProgramming;
  * writing to understand what is Fibonacci
  * other questions will use the concept
  */
-public class Fibonacci {
+public class FibonacciLC509 {
 
     public static void main(String[] args) {
         int[] array7 = generateFibonacci(7,1,2);

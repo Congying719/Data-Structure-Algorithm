@@ -3,7 +3,7 @@ package binaryTree;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TreeNodeTraversalLC94_144_145 {
+public class RecursiveTraversalLC94_144_145 {
 
 
     public static void main(String[] args) {
